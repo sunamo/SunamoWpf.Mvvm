@@ -24,7 +24,7 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     <Optimize>false</Optimize>
-    <PackageReleaseNotes>y</PackageReleaseNotes>
+    <PackageReleaseNotes>Initial SunamoWpf.Mvvm publish</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="HelperTrinity" Version="4.0.0" />

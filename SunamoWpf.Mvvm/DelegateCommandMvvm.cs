@@ -1,10 +1,5 @@
-namespace SunamoMvvm
-{
-	/// <summary>
-	/// A command that executes delegates to determine whether the command can execute, and to execute the command.
-	/// </summary>
-	/// <remarks>
-	/// <para>
+namespace SunamoMvvm;
+
 	/// This command implementation is useful when the command simply needs to execute a method on a view model. The delegate for
 	/// determining whether the command can execute is optional. If it is not provided, the command is considered always eligible
 	/// to execute.
@@ -83,4 +78,3 @@ namespace SunamoMvvm
 			_execute(parameter);
 		}
 	}
-}

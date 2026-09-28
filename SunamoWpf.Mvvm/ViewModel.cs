@@ -1,10 +1,5 @@
-namespace SunamoMvvm
-{
-	/// <summary>
-    /// Model-View-ViewModel
-    /// 
-    /// Implement controller which will notify for change property value
-    /// 
+namespace SunamoMvvm;
+
 	/// A base class for all view models, like Item, ItemsViewModel, ItemViewModel in SunamoMvvm.
 	/// </summary>
 	/// <remarks>
@@ -69,4 +64,3 @@ namespace SunamoMvvm
 			OnPropertyChanged(new PropertyChangedEventArgs(propertyName));
 		}
 	}
-}

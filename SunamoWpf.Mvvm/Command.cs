@@ -1,6 +1,5 @@
-namespace SunamoMvvm
-{
-	/// <summary>
+namespace SunamoMvvm;
+
 	/// A base class for command implementations.
 	/// </summary>
 	public abstract class Command : ICommand
@@ -68,4 +67,3 @@ namespace SunamoMvvm
 			}
 		}
 	}
-}
