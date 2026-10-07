@@ -44,10 +44,10 @@ namespace SunamoMvvm;
 		/// <summary>
 		/// Raises the <see cref="PropertyChanged"/> event.
 		/// </summary>
-		/// <param name="e">
+		/// <param name="eventArgs">
 		/// The event arguments.
 		/// </param>
-		protected virtual void OnPropertyChanged(PropertyChangedEventArgs e)
+		protected virtual void OnPropertyChanged(PropertyChangedEventArgs eventArgs)
 		{
 			throw new Exception("Raise not exist in core");
 			//PropertyChanged.Raise(this, e);
