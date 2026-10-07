@@ -6,7 +6,7 @@
     <RootNamespace>SunamoMvvm</RootNamespace>
     <UseWPF>true</UseWPF>
     <Description>Minimal MVVM base classes (Command, DelegateCommandMvvm, ViewModel) extracted from SunamoMvvm.wpf</Description>
-    <Version>26.9.28.1</Version>
+    <Version>26.10.7.2</Version>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoWpf.Mvvm/</PackageProjectUrl>
